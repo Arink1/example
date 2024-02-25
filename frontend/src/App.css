@@ -1,0 +1,100 @@
+/* General styling */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column; /* Ensures content is vertically stacked */
+  min-height: 100vh;
+}
+
+/* Header styles */
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10%;
+  color: white;
+}
+
+header {
+  background-color: #007bff; /* Example color */
+  color: white;
+  padding: 1rem;
+}
+
+/* Navigation link styles */
+.Nav-link {
+  margin-right: 15px; /* Specific margin might still be useful */
+}
+
+/* Main content styles */
+.App-main {
+  flex: 1;
+  background-color: #f8f9fa; /* Light grey */
+  padding: 20px 10%; /* Consistent padding with the header */
+  color: #333; /* Dark text for readability */
+}
+
+.Main {
+  flex: 1; /* Allows main content to grow and fill available space */
+  padding: 1rem;
+}
+
+main {
+  flex: 1;
+  /* Styles for main content area */
+}
+
+
+/* Footer styles */
+.App-footer {
+  background-color: #6c757d; /* Dark grey */
+  color: white;
+  padding: 20px 10%;
+  text-align: center;
+}
+
+
+
+/* Menu styling */
+.Menu {
+  background-color: #343a40; /* Example color */
+  color: white;
+  padding: 0.5rem;
+}
+
+
+
+footer {
+  background-color: #6c757d; /* Example color */
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+
+
+
+
+/* Styles specific to MainContent */
+main {
+  padding: 20px;
+  text-align: center;
+  background-color: #f0f0f0; /* Light grey background for visibility */
+  margin: 20px; /* Add some margin around the main content area */
+  border-radius: 8px; /* Optional: adds rounded corners for a softer look */
+}
+
+main h1, main p {
+  /* Keep these if you need specific styling for text inside <main> */
+  margin-bottom: 15px; /* Space below the heading */
+  color: #333; /* Dark grey color for the heading */
+  line-height: 1.6; /* Spacing between lines for readability */
+}
+
+
